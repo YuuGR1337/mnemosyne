@@ -1,9 +1,9 @@
 # Mnemosyne Installation Guide for LLM Agents
 
 > **Note:** Guidance to prefer `mnemosyne_remember` and treat the legacy `memory`
-> tool as deprecated applies to **bulk durable fact storage**, not to small,
-> always-injected memory files or other narrowly-scoped durable writes outside
-> Mnemosyne, which remain valid.
+> tool as deprecated applies to **bulk durable fact storage**, not to small
+> standing rules and context anchors in the always-injected memory tier,
+> which remain a supported complementary tier. See #1181 for the canonical policy.
 
 > **Target audience:** AI agents (LLMs) that need to install, configure, and verify Mnemosyne for a user.
 > **When to use:** A user asks you to install Mnemosyne, set up memory for their AI agent, or integrate Mnemosyne with Hermes.
